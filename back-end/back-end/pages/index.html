@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>קופת חולים</h1>
+        <ul>
+            <li>כתובת השרת הוא : http://localhost:3500</li>
+            <li>לקבלת רשימת חברי הקופה הפעילו את הקישור הבא  http://localhost:3000/api/getCustomers</li>
+            <li>לקבלת פרטי לקוח הפעילו את הקישור הבא http://localhost:3500/api/getCustDetails/{custCode}</li>
+        </ul> 
+        <p>כל המידע</p>
+        <div>
+            <p>
+                <input type="button" value="for example" onclick="showCustomers()">
+                <input type="button" value="להוספת חבר" onclick="enterDetails()">
+            </p>
+            <p>
+                <select  id="customers"></select>
+            </p>
+        </div>
+    </div>
